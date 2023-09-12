@@ -17,8 +17,15 @@ header {
 	width: 100vw;
 	background-color: #6f6af7;
 	display: flex;
+    flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
+}
+.helpButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
 }
 header .title {
 	font-family: Delius;
