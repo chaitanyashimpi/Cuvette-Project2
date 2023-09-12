@@ -89,3 +89,111 @@ textarea{
     line-height: 30px;
 }
 
+
+/* Social Icons */
+
+.socialIcons{
+    position: fixed;
+    top: 45vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.socialIcons img{
+    cursor: pointer;    
+    width: 40px;
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+/* Cards */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.card{
+    padding: 10px 20px;
+    width: 350px;
+    height: 80px;
+    color: #fff;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+/* InfoBox */
+
+.infoBox{
+    display: flex;
+    background-color: #483eff;
+    border-radius: 11px;
+    padding: 40px;
+    width: 80vw;
+    margin: auto;
+    /* margin: 0 100px; */
+}
+.infoMenu{
+    flex-basis: 30%;
+}
+.infoDesc{
+    position: relative;
+    flex-basis: 60%;
+    background-color: #fff;
+    border-radius: 11px;
+    padding: 40px;
+}
+.infoMenuCard{
+    width: 80%;
+    border: 3px solid #fff;
+    border-radius: 11px;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin: 50px 0;
+}
+.infoMenu .infoMenuCard:first-child{
+    border: none;
+    background-color: #bce0f6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    color: #000;
+}
+
+.infoContent{
+    margin: 40px 20px;
+}
+.infoContent p{
+    margin: 20px 0;
+    display: flex;
+}
+.infoContent p strong{
+    display: block;
+    width: 80px;
+}
+.infoButton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.infoButton button{
+    background-color: #000;
+    border-radius: 9px;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
